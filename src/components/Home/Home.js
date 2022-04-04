@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import showReview from '../../components/showReview/showReview'
 const Home = () => {
     const[reviews,setreviews] =useState([]);
     useEffect(() =>{
@@ -9,10 +9,11 @@ const Home = () => {
     },[])
 
     return (
+        <div>{ reviews.map(review =>{
+            <showReview key={review._id} review={review}></showReview>
+            
+        })}</div>
     
-            reviews.map(review =>{
-                <div id="review._id">${review.author}</div>
-            })
        
     );
 };
