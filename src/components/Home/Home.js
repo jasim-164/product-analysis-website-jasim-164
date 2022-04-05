@@ -19,8 +19,10 @@ const Home = () => {
   
         <div>
 
-        <div className="flex justify-evenly items-center mt-24">
-        <div className=" para  w-300 ">
+        <div className="flex justify-evenly items-center mt-16">
+        
+        <div className=" para  w-300 text-xl">
+        <div className="text-7xl text-green-600 mb-5">“A good book is an event in my life.”</div>
         বিশ্বে দুইটি বেশ বড় সড় প্রােগ্রামিং প্রতিযােগিতা আছে। একটি হলাে ACM ICPC World finals ta ica international Olympiad for Informatics O. ACM প্রােগ্রামিং এ বিশ্ববিদ্যালয় পর্যায়ের ছেলেমেয়েরা অংশগ্রহণ করে থাকে। 
 
         বিভিন্ন রকমের টপিক থেকে প্রবলেম আসে: সংখ্যাত্ত্ব (Number Theory), ক্যালকুলাস (Calculus), গ্রাফ থিওরী (Graph Theory), গেইম থিওরী (Game Theory), ডায়নামিক প্রােগ্রামিং (Dynamic Programming), সম্ভাব্যতা (Probability) ইত্যাদি। 
@@ -35,16 +37,17 @@ const Home = () => {
 
         <div><img src="https://static-01.daraz.com.bd/p/mdc/113655ec9bf17888a58c182b8e43e020.jpg" height="600" width="500" alt="book">
         </img>
-        <p>Programming Contest Data Structure and Algorithm by Md: Mahbubul Hassan</p>
+        <figcaption>Programming Contest Data Structure and Algorithm by Md: Mahbubul Hassan</figcaption>
         </div>
         </div>
 
        <div className="container">
-       <h1>popular reviews</h1>
+       <h1 className="text-4xl mb-10 mt-10 ml-56 text-slate-500 text-center popular">popular reviews</h1>
+       <hr className=""></hr>
 
-       <div className="grid grid-rows-1 grid-flow-col  gap-x-10 mt-10 ml-24 w-auto h-50">
+       <div className="grid grid-rows-1 grid-flow-col ">
            {reviews.slice(0,3).map((review) =>
-            <div className="box-border h-300 w-300 p-4 border-4 ml-5 mr-5 bg-teal-300"> 
+            <div className="box-border h-400 w-96 p-4 border-4 ml-20 mr-5 bg-teal-300"> 
             <div key={review._id}> 
             <h1 className="text-4xl mb-5"> {review.author}</h1>
             <p className="mb-5">{review.text.slice(0,60)}</p>
@@ -58,7 +61,7 @@ const Home = () => {
        </div>
        </div>
        
-       <button className="btn rounded-full bg-rose-300 px-7 py-3 mb-10 mt-10" onClick={()=>navigate('/reviews')}>See ALL</button>
+       <button className="btn rounded-full bg-rose-300 px-7 py-3 mb-10 mt-10 text-center " onClick={()=>navigate('/reviews')}>See All Reviews</button>
 
 
         
