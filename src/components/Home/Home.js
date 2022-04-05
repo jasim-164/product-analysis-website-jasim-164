@@ -42,7 +42,7 @@ const Home = () => {
         </div>
 
        <div className="container">
-       <h1 className="text-4xl mb-10 mt-10 ml-56 text-slate-500 text-center popular">popular reviews</h1>
+       <h1 className="text-4xl mb-10 mt-10 ml-0 text-slate-500 text-center popular">popular reviews!</h1>
        <hr className=""></hr>
 
        <div className="grid grid-rows-1 grid-flow-col ">
@@ -50,7 +50,7 @@ const Home = () => {
             <div className="box-border h-400 w-96 p-4 border-4 ml-20 mr-5 bg-teal-300"> 
             <div key={review._id}> 
             <h1 className="text-4xl mb-5"> {review.author}</h1>
-            <p className="mb-5">{review.text.slice(0,60)}</p>
+            <p className="mb-5">{review.text.slice(0,172)}</p>
             <h1 className="text-2xl">Rating: {review.rating}</h1>
             </div>
             </div>

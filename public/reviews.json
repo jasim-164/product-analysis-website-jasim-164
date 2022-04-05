@@ -1,7 +1,12 @@
-[    {"_id":"58c03ac18060197ca0b52d51","author":"Kim Jong Yun","store":"58c03a958060197ca0b52d50","text":"I tried this place last week   it was incredible! Amazing selection of local and imported brews and the food is to die for! ","rating":5,"created":"2017-03-08T17:09:21.627Z"},
-    {"_id":"58c03ac18060197ca0b52d52","author":"Donald Trump","store":"58c03a958060197ca0b52d50","text":"I tried this place last week and it was incredible! Amazing selection of local and imported brews and the food is to die for! ","rating":5,"created":"2017-03-08T17:09:21.627Z"},
-    {"_id":"58c03ac18060197ca0b52d53","author":"Jelonaski","store":"58c03a958060197ca0b52d50","text":"I tried this place last week and it was incredible! Amazing selection of local and imported brews and the food is to die for! ","rating":4,"created":"2017-03-08T17:09:21.627Z"},
-    {"_id":"58c03ac18060197ca0b52d54","author":"Putin","store":"58c03a958060197ca0b52d50","text":"I tried this place last week and it was incredible! Amazing selection of local and imported brews and the food is to die for! ","rating":5,"created":"2017-03-08T17:09:21.627Z"},
-    {"_id":"58c03ac18060197ca0b52d55","author":"Narendra Modi","store":"58c03a958060197ca0b52d50","text":"I tried this place last week and it was incredible! Amazing selection of local and imported brews and the food is to die for! ","rating":5,"created":"2017-03-08T17:09:21.627Z"},
-    {"_id":"58c03ac18060197ca0b52d56","author":"Onng Sang Suchi","store":"58c03a958060197ca0b52d50","text":"I tried this place last week and it was incredible! Amazing selection of local and imported brews and the food is to die for! ","rating":5,"created":"2017-03-08T17:09:21.627Z"}
+[    {"_id":"58c03ac18060197ca0b52d51","author":"Kim Jong Yun","store":"58c03a958060197ca0b52d50","text":"I read the book cover-to-cover one morning, dog-eared it like crazy, and now refer to it daily. It's one of those books you can share pieces of with everyone in your life. If you have ever had the privilege of hearing this author speak on customer experience, then this book will be the perfect way to stay recharged on your mission. ","rating":5,"created":"2017-03-08T17:09:21.627Z"},
+
+    {"_id":"58c03ac18060197ca0b52d52","author":"Donald Trump","store":"58c03a958060197ca0b52d50","text":"I think this is a pretty good book that is easy to read if you have a strong background in proof-based math.","rating":5,"created":"2017-03-08T17:09:21.627Z"},
+
+    {"_id":"58c03ac18060197ca0b52d53","author":"Jelonaski","store":"58c03a958060197ca0b52d50","text":"4.0 out of 5 stars Great book, in-depth and theoretical","rating":4,"created":"2017-03-08T17:09:21.627Z"},
+
+    {"_id":"58c03ac18060197ca0b52d54","author":"Putin","store":"58c03a958060197ca0b52d50","text":"Fantastic - I love the author's tone and clear explanations, hoping between math and theory to plain English and examples. ","rating":5,"created":"2017-03-08T17:09:21.627Z"},
+
+    {"_id":"58c03ac18060197ca0b52d55","author":"Narendra Modi","store":"58c03a958060197ca0b52d50","text":"Excellent Introduction to CS for math majors ","rating":5,"created":"2017-03-08T17:09:21.627Z"},
+
+    {"_id":"58c03ac18060197ca0b52d56","author":"Onng Sang Suchi","store":"58c03a958060197ca0b52d50","text": "Good, But Still Very Complex!","rating":5,"created":"2017-03-08T17:09:21.627Z"}
 ]
