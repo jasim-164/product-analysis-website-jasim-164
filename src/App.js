@@ -13,7 +13,6 @@ function App() {
  
   return (
     <div className="App">
-      <h1>Welcome to React Router!</h1>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home />} />
